@@ -31,6 +31,8 @@ The 91-image, Set5 dataset converted to HDF5 can be downloaded from the links be
 | Set5 | 3 | Eval | [Download](https://www.dropbox.com/s/58ywjac4te3kbqq/Set5_x3.h5?dl=0) |
 | Set5 | 4 | Eval | [Download](https://www.dropbox.com/s/0rz86yn3nnrodlb/Set5_x4.h5?dl=0) |
 
+Otherwise, you can use `prepare.py` to create custom dataset.
+
 ```bash
 python train.py --train-file "BLAH_BLAH/91-image_x3.h5" \
                 --eval-file "BLAH_BLAH/Set5_x3.h5" \
