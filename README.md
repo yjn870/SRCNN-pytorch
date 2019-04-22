@@ -12,11 +12,11 @@ This repository is implementation of the ["Image Super-Resolution Using Deep Con
 
 ## Requirements
 
-- PyTorch
-- Numpy
-- Pillow
-- h5py
-- tqdm
+- PyTorch 1.0.0
+- Numpy 1.15.4
+- Pillow 5.4.1
+- h5py 2.8.0
+- tqdm 4.30.0
 
 ## Train
 
